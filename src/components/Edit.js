@@ -26,7 +26,7 @@ export default function EditPage()
     return (
         <div className="edit-page">
             <div ref={memeRef} className="meme">
-                <img className="meme-image" src={params.get("image")}/>
+                <img className="meme-image" src={params.get("image")} alt="meme"/>
                 {
                     textList.map((element,index) => (
                         <Text key={index} idx={index} remove={remove}/>

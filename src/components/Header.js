@@ -6,7 +6,7 @@ export default function Header()
 {
     return (
         <header className="navbar">
-            <img src={logo}/>
+            <img src={logo} alt="laughing face"/>
             <h1>Meme Maker</h1>
         </header>
     )
